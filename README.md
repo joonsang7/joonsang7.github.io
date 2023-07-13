@@ -1,6 +1,4 @@
-# Hydejack Starter Kit
-
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+# 준상의 블로그!
 
 ## Quick Start
 ### Running locally
@@ -16,5 +14,5 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.
 * Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
 [^1]: Requires Bundler. Install with `gem install bundler`.
+Hydejack Starter Kit을 사용하였습니다!
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
