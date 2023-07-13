@@ -13,6 +13,5 @@
 * Read the [docs](https://hydejack.com/docs/)
 * Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
 Hydejack Starter Kit을 사용하였습니다!
 
