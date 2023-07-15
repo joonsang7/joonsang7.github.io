@@ -4,7 +4,7 @@ excerpt: "js에서 변수를 local에 저장하기 위한 방법을 정리해 �
 
 categories:
  - Github Blog
-
+ - 
 tags:
  - [javascript,local Storage,variable]
 
