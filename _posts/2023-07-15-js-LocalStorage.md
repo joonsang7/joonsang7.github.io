@@ -3,13 +3,13 @@ title: "변수를 기억하는 방법 : localStorage"
 excerpt: "js에서 변수를 local에 저장하기 위한 방법을 정리해 보았다!"
 
 categories:
- - Blog
+ - Github Blog
 
- tags:
-  - [javascript,local Storage,variable]
+tags:
+ - [javascript,local Storage,variable]
 
-toc: false
-toc_sticky: false
+toc: true
+toc_sticky: true
  
 date: 2023-07-15
 last_modified_at: 2023-07-15
