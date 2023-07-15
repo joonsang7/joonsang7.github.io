@@ -8,8 +8,8 @@ categories:
 tags:
  - [javascript,local Storage,variable]
 
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
  
 date: 2023-07-15
 last_modified_at: 2023-07-15
@@ -34,7 +34,7 @@ localStorage.setItem("username", "HongGilDong");
 
 위의 개념을  이용하여, 사용자에게 이름을 입력 받아 Local Storage에 저장하고 가져오는 함수를 만들어 본다. 만약 Local Storage에 저장 된 이름이 있다면, 입력 받는 form 은 다시 표시하지 않게 한다.
 
-```javascript
+```js
     const loginForm = document.querySelector("#login-form"); 
     const loginInput = document.querySelector("#login-form input"); //form에서 사용자 입력이다.
     const greeting = document.querySelector("h1"); //비어있는 h1 요소이다.(인사로 채우기 위함)
