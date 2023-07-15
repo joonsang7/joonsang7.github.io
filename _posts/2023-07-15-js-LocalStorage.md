@@ -58,10 +58,11 @@ localStorage.setItem("username", "HongGilDong");
     const savedUsername = localStorage.getItem(USERNAME_KEY); //로컬 저장소에 저장된 이름을 갖고 옴
 
     //이름의 Local Storage 저장 여부에 따라 상태를 바꾼다!
-```
+
     if(savedUsername === null){ 
         loginForm.classList.remove(HIDDEN_CLASSNAME);
         loginForm.addEventListener("submit", onLoginSubmit);
     }else{
         paintGreetings(savedUsername);
     }
+```
