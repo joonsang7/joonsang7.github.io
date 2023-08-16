@@ -15,7 +15,7 @@ date: 2023-07-15
 last_modified_at: 2023-07-15
 ---
 
-# 변수를 기억하는 방법 : localStorage
+# <JavaScript> 변수를 기억하는 방법 : localStorage
 
 **창을 새로 고침 하여도 사용자가 입력한 user의 이름을 기억하려면 어떻게 해야 할까?** Local Storage API를 이용 함으로서 가능하다!  Local Storage API에는 다양한 method가 존재하는데, 그 중에서 우리가 이용할 것은 **setItem**이다. setItem을 활용해서 Local Storage에 정보를 저장할 수 있다.
 
