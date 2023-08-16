@@ -19,7 +19,7 @@ last_modified_at: 2023-07-15
 
 **창을 새로 고침 하여도 사용자가 입력한 user의 이름을 기억하려면 어떻게 해야 할까?** Local Storage API를 이용 함으로서 가능하다!  Local Storage API에는 다양한 method가 존재하는데, 그 중에서 우리가 이용할 것은 **setItem**이다. setItem을 활용해서 Local Storage에 정보를 저장할 수 있다.
 
-```
+```java
 localStorage.setItem("username", "HongGilDong");
 ```
 이 코드를 실행하면 Local Storage 에는 새로운 항목인 username이 생긴다. key는 username, value는 HongGilDong!
@@ -34,7 +34,7 @@ localStorage.setItem("username", "HongGilDong");
 
 위의 개념을  이용하여, 사용자에게 이름을 입력 받아 Local Storage에 저장하고 가져오는 함수를 만들어 본다. 만약 Local Storage에 저장 된 이름이 있다면, 입력 받는 form 은 다시 표시하지 않게 한다.
 
-```
+```java
     const loginForm = document.querySelector("#login-form"); 
     const loginInput = document.querySelector("#login-form input"); //form에서 사용자 입력이다.
     const greeting = document.querySelector("h1"); //비어있는 h1 요소이다.(인사로 채우기 위함)
